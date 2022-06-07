@@ -26,10 +26,12 @@ def fizzbuzz_printer
 end
 
 def reverse_string(string)
+  reversed_string = ""
   i = 0
   while i < string.length
     i -= 1
-    print reversed_string = string[i]
+    reversed_string += string[i]
   end
+  return reversed_string
 end
 
